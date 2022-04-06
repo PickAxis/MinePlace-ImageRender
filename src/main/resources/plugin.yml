@@ -1,0 +1,19 @@
+name: MinePlace-ImageRender
+version: ${project.version}
+author: NickG365
+main: com.pickaxis.place.imagerender.MinePlacePlugin
+api-version: 1.15
+softdepend:
+  - Multiverse-Core
+commands:
+    mineplace:
+      description: MinePlace build information command.
+      usage: /<command>
+    tpplace:
+      description: Teleports to an r/place coordinate.
+      usage: /tpplace <x> <y>
+      aliases: 
+        - placetp
+    render:
+      description: Renders a PNG of the r/place canvas.
+      usage: /render <url>
